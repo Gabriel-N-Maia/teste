@@ -57,6 +57,7 @@ Route::redirect('/redirect1', '/redirect2');
 // Route::get('redirect1', function () {
 //     return redirect('redirect2');
 // });
+//adding shit
 
 Route::get('redirect2', function () {
     return 'Redirect02';
